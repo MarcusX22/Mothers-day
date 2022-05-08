@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(0deg, #F9F3EE, #CCF3EE);
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.card_base {
+  z-index: 1;
+  background-color: #97C4B8;
+  width: 600px;
+  height: 800px;
+  border-radius: 5px;
+
+}
+.card_header {
+padding-top: 20px;
+color: #fff;
+font-family: 'Dancing Script', cursive;
+font-size: 2rem;
+text-align: center;
+font-weight: 700;
+
+}
+#header_flash {
+  animation-name: flash;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes flash {
+  0% {
+
+  }
+  50% {
+    color: yellow;
+    /* font-size: 2rem; */
+  }
+  75%{
+    color: #F9CEEE
+  }
+}
+
+.holding-heart {
+  font-size: 3rem;
+}
+
+
+#card_message {
+  margin-top: 20px;
+}
+.cookie_game {
+  /* margin: 50px 200px; */
+
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+
+}
+.fortune_cookie_img {
+
+  width: 75%;
+}
+.cookie_button {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+.carousel_img {
+  border-radius: 50px;
+}
+.A_img {
+  width: 15%;
+}
